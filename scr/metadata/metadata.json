@@ -1,0 +1,28 @@
+{
+    "unique_protocols": [
+        "HCI_EVT",
+        "HCI_CMD",
+        "HCI H4 Broadcom",
+        "Baseband",
+        "LMP",
+        "L2CAP",
+        "SDP",
+        "BNEP",
+        "RFCOMM",
+        "OBEX"
+    ],
+    "attack_types": {
+        "au_rand_flooding": 0,
+        "duplicated_encapsulated_payload": 1,
+        "duplicated_iocap": 2,
+        "truncated_sco_link_request": 3,
+        "feature_response_flooding": 4,
+        "invalid_feature_page_execution": 5,
+        "lmp_auto_rate_overflow": 6,
+        "lmp_overflow_dm1": 7,
+        "truncated_lmp_accepted": 8,
+        "invalid_setup_complete": 9,
+        "invalid_timing_accuracy": 10,
+        "normal": 11
+    }
+}
