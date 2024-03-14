@@ -1,0 +1,12 @@
+,au_rand_flooding,duplicated_encapsulated_payload,duplicated_iocap,truncated_sco_link_request,feature_response_flooding,invalid_feature_page_execution,lmp_auto_rate_overflow,lmp_overflow_dm1,truncated_lmp_accepted,invalid_setup_complete,invalid_timing_accuracy
+au_rand_flooding,103,1,2,3,21,4,1,0,1,0,0
+duplicated_encapsulated_payload,3,1,1,4,2,3,3,0,0,0,0
+duplicated_iocap,14,2,20,9,10,6,1,0,1,0,0
+truncated_sco_link_request,8,0,10,29,14,3,2,0,0,0,0
+feature_response_flooding,2,1,0,1,43,0,1,0,1,0,0
+invalid_feature_page_execution,5,0,9,10,11,3,3,0,0,0,0
+lmp_auto_rate_overflow,5,1,0,10,12,0,3,0,0,0,0
+lmp_overflow_dm1,11,0,1,7,11,5,2,0,0,0,1
+truncated_lmp_accepted,3,0,2,27,19,1,1,0,1,0,0
+invalid_setup_complete,3,0,1,7,4,0,0,0,1,0,0
+invalid_timing_accuracy,7,0,1,12,11,2,3,0,0,0,0
