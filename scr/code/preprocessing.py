@@ -22,6 +22,7 @@ def custom_drop_dummies(col_name, col, metadata):
 def preprocess(X, metadata):
     ans = pd.DataFrame()
     ans["Delta"] = X["Delta"].apply(parse_Delta)
+    ans["Length"] = X["Length"]
     temp = custom_drop_dummies("Protocol", X["Protocol"], metadata)
     for col in temp.columns:
         ans[col] = temp[col]
